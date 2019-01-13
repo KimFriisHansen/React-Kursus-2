@@ -6,10 +6,10 @@ React Redux Workshop - Router
 https://github.com/ReactTraining/react-router
 
 ## Basics
-[React Router (v4)](https://github.com/ReactTraining/react-router/tree/v4) keeps your UI in sync with the URL. It is all about matching location and rendering `<Route>` components accordingly.
+[React Router (v4)](https://www.npmjs.com/package/react-router) keeps your UI in sync with the URL. It is all about matching location and rendering `<Route>` components accordingly.
 
 ## Implementation
-The [API of the v4](https://reacttraining.com/react-router/) has been simplified to play better with React existing features and is much more composable.
+The [API of the v4](https://www.npmjs.com/package/react-router) has been simplified to play better with React existing features and is much more composable.
 
 ### Add history
 First, we need to create a browser history object to keep track of the navigational state of the application. We pass it as a prop to the `Root`:
