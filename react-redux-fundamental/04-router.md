@@ -3,7 +3,7 @@ React Redux Workshop - Router
 
 > Declarative routing for React.
 
-https://github.com/ReactTraining/react-router
+(https://www.npmjs.com/package/react-router)
 
 ## Basics
 [React Router (v4)](https://www.npmjs.com/package/react-router) keeps your UI in sync with the URL. It is all about matching location and rendering `<Route>` components accordingly.
