@@ -1,5 +1,5 @@
-React Redux Workshop - React
-============================
+React Redux Workshop - React 2
+==============================
 
 > A Javascript Library For Building User Interfaces
 
