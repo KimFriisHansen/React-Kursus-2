@@ -1,0 +1,15 @@
+type BrandHouse {    
+    MDM_IDENTIFIER : String
+    BRAND_HOUSE_NAME : String
+    SHORT_NAME : String
+    CREATED_DATE : String
+    CHANGED_DATE : String
+    DELETED: String
+  }
+
+  # The "Query" type is the root of all GraphQL queries.
+  # (A "Mutation" type will be covered later on.)
+  type Query {
+    brandHouses: [BrandHouse]
+  }
+
