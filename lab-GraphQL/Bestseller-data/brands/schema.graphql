@@ -1,0 +1,16 @@
+type brand {    
+    MDM_IDENTIFIER : String
+    BRAND_NAME : String
+    BRAND_NAME_SHORT : String
+    DEPARTMENT_MDM : String    
+    DELETED: String
+    CREATED_DATE : String
+    CHANGED_DATE : String    
+  }
+
+  # The "Query" type is the root of all GraphQL queries.
+  # (A "Mutation" type will be covered later on.) 
+
+  type Query {
+    brands: [brand]
+  }
