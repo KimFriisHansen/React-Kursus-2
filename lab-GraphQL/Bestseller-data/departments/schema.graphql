@@ -1,0 +1,19 @@
+type Department {    
+    MDM_IDENTIFIER : String
+    DEPARTMENT_NAME : String
+    DISPLAY_NAME : String
+    SHORT_NAME : String
+    BRAND_HOUSE_MDM: String
+    DELETED: String
+    CREATED_DATE : String
+    CHANGED_DATE : String    
+  }
+
+  # The "Query" type is the root of all GraphQL queries.
+  # (A "Mutation" type will be covered later on.) 
+
+  type Query {
+    departments: [Department],
+    department(id: String!): Department
+    departmentName(name: String): [Department]
+  }
