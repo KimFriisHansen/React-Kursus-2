@@ -1,0 +1,16 @@
+type SubBrand {    
+    MDM_IDENTIFIER : String
+    SUBBRAND_NAME : String    
+    SHORT_NAME : String
+    DEPARTMENT_MDM: String    
+    CREATED_DATE : String
+    CHANGED_DATE : String 
+    DELETED: String   
+  }
+
+  # The "Query" type is the root of all GraphQL queries.
+  # (A "Mutation" type will be covered later on.) 
+
+  type Query {
+    subBrands: [SubBrand]
+  }
