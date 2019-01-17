@@ -1,0 +1,44 @@
+
+
+type Query
+{
+  
+   department:[Department]
+   departments:[Departments]
+   test: String
+}
+
+
+type Department {
+   id:ID!
+   name:String
+   created_date:String
+   brandhouse:Brandhouse
+}
+
+type Brandhouse {
+   id:ID!
+   name:String
+   location:String
+   rating:Float
+}
+
+type Departments {
+   MDM_IDENTIFIER : ID!
+    DEPARTMENT_NAME : String
+    DISPLAY_NAME : String
+    SHORT_NAME : String
+    BRAND_HOUSE_MDM: Brandhouses
+    DELETED: String
+    CREATED_DATE : String
+    CHANGED_DATE : String 
+}
+
+type Brandhouses {
+   MDM_IDENTIFIER : String
+    BRAND_HOUSE_NAME : String
+    SHORT_NAME : String
+    CREATED_DATE : String
+    CHANGED_DATE : String
+    DELETED: String
+}
